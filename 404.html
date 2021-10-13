@@ -1,1 +1,22 @@
-Test 404
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>404</title>
+  <script>
+      function check404(url){
+        const expression = /https?:\/\/thomaspoignant.github.io\/go-feature-flag\/(latest|v[0-9]+\.[0-9]+\.[0-9]+)/;
+        const regex = new RegExp(expression);
+        const isWellFormated = url.match(regex)
+        if(!isWellFormated){
+            const newUrl = url.replace("https://thomaspoignant.github.io/go-feature-flag", "https://thomaspoignant.github.io/go-feature-flag/latest")
+            window.location.replace(newUrl + window.location.hash);
+        }
+      }
+      check404(window.location.href)
+  </script>
+</head>
+<body>
+  404
+</body>
+</html>
