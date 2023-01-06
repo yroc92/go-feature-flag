@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>GO Feature Flag Blog</title>
-        <link>https://docs.gofeatureflag.org/blog</link>
+        <link>https://gofeatureflag.org/blog</link>
         <description>GO Feature Flag Blog</description>
         <lastBuildDate>Fri, 01 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,18 +10,18 @@
         <language>en</language>
         <item>
             <title><![CDATA[🔊 Feature Flags in Dev’Obs Podcast 🇫🇷]]></title>
-            <link>https://docs.gofeatureflag.org/blog/2022/07/01/feature-flags-devobs-podcast</link>
+            <link>https://gofeatureflag.org/blog/2022/07/01/feature-flags-devobs-podcast</link>
             <guid>/2022/07/01/feature-flags-devobs-podcast</guid>
             <pubDate>Fri, 01 Jul 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Earlier this week the super cool podcast Dev’Obs asked me to talk about feature flags, go-feature-flag and also the super nice initiative Open-feature.]]></description>
-            <content:encoded><![CDATA[<p><img loading="lazy" src="/assets/images/devobs-d52cbdd84643dd3ff2668f65eed0f26b.jpg" width="1400" height="933" class="img_ev3q"></p><p>Earlier this week the super cool podcast Dev’Obs asked me to talk about feature flags, go-feature-flag and also the super nice initiative Open-feature.</p><p>The podcast is in French 🇫🇷 (yes I know sorry…) but you can learn a lot of cool things, when to use them, what is Open-feature about and all the cool things that the feature flags can bring to your developer experience.</p><p>Listen it here: <a href="https://www.listennotes.com/podcasts/devobs/devobs-24-feature-flags-rknRoFGL7N5/" target="_blank" rel="noopener noreferrer">https://www.listennotes.com/podcasts/devobs/devobs-24-feature-flags-rknRoFGL7N5/</a></p>]]></content:encoded>
+            <description><![CDATA[Earlier this week the super cool podcast Dev’Obs asked me to talk about feature flags, go-feature-flag and also the super nice initiative OpenFeature.]]></description>
+            <content:encoded><![CDATA[<p><img loading="lazy" src="/assets/images/devobs-d52cbdd84643dd3ff2668f65eed0f26b.jpg" width="1400" height="933" class="img_ev3q"></p><p>Earlier this week the super cool podcast Dev’Obs asked me to talk about feature flags, go-feature-flag and also the super nice initiative OpenFeature.</p><p>The podcast is in French 🇫🇷 (yes I know sorry…) but you can learn a lot of cool things, when to use them, what is OpenFeature about and all the cool things that the feature flags can bring to your developer experience.</p><p>Listen it here: <a href="https://www.listennotes.com/podcasts/devobs/devobs-24-feature-flags-rknRoFGL7N5/" target="_blank" rel="noopener noreferrer">https://www.listennotes.com/podcasts/devobs/devobs-24-feature-flags-rknRoFGL7N5/</a></p>]]></content:encoded>
             <category>GO Feature Flag</category>
             <category>Openfeature</category>
             <category>Podcast</category>
         </item>
         <item>
             <title><![CDATA[Automate Your Product Release Cycles Using Go Feature Flag]]></title>
-            <link>https://docs.gofeatureflag.org/blog/automate-your-product-release-cycles-using-go-feature-flag</link>
+            <link>https://gofeatureflag.org/blog/automate-your-product-release-cycles-using-go-feature-flag</link>
             <guid>automate-your-product-release-cycles-using-go-feature-flag</guid>
             <pubDate>Wed, 26 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[When you build a new feature, orchestrating the actual launch schedule between the Product, Engineering, and Marketing teams can be challenging.]]></description>
@@ -31,7 +31,7 @@
         </item>
         <item>
             <title><![CDATA[Introduction blog post]]></title>
-            <link>https://docs.gofeatureflag.org/blog/introduction-blog-post</link>
+            <link>https://gofeatureflag.org/blog/introduction-blog-post</link>
             <guid>introduction-blog-post</guid>
             <pubDate>Mon, 11 Jan 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[I absolutely don’t think human/manual QA gates should be involved in between the writing of code and its being live. To avoid breaking things every time and to have an early cutoff system, you should use feature flags.]]></description>
