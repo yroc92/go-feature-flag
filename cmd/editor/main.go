@@ -25,7 +25,9 @@ func main() {
 		},
 		AllowHeaders: []string{echo.HeaderOrigin, echo.HeaderContentType, echo.HeaderAccept},
 	}))
-
+	e.GET("/", func(c echo.Context) error {
+		return c.String(http.StatusOK, "hello 👋")
+	})
 	g := e.Group("/v1")
 	g.POST("/feature/evaluate", Handler)
 	e.Logger.Fatal(e.Start(":1323"))
